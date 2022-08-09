@@ -55,7 +55,7 @@ with st.spinner('Wait for it...'):
         model = torchvision.models.resnet50()
         # model.avgpool = nn.AdaptiveAvgPool2d(1) # for any size of the input
         model.fc = torch.nn.Linear(in_features=2048, out_features=1)
-        model.load_state_dict(torch.load('model/model-resnet50.pth', map_location=device)) 
+        model.load_state_dict(torch.load(path+'/model/model-resnet50.pth', map_location=device)) 
         model.eval().to(device)
         pre = predict(image, model)
         # st.write()
