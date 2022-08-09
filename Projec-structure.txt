@@ -1,0 +1,27 @@
+problem-generator
+│
+├── .streamlit
+│   └── config.toml
+│
+├── app
+│   ├── main.py
+│   └── utils.py
+│
+├── assets
+│
+├── data
+│
+└── requirements.txt
+
+
+    The .streamlit folder, for now, is used to save the Streamlit configuration file including the theme.
+    The app folder contains the main code in python that is the soul of your Streamlit app, what it displays, and how it reacts to user input.
+    The assets folder is used to gather any images or other media that is useful for the app.
+    The data folder, as the name suggests, will accommodate the data, that is, the brain of your Streamlit app.
+    The requirements.txt file contains any packages that the app depends on.
+
+
+
+@st.cache(suppress_st_warning=True)
+def read_data(path):
+    return pd.read_csv(path)
