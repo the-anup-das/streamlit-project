@@ -1,8 +1,9 @@
-import argparse
 import torch
 import torchvision.models
 import torchvision.transforms as transforms
 import streamlit as st
+
+import os
 
 
 from PIL import Image
@@ -15,9 +16,11 @@ st.set_page_config(
 
  )
 
+path = os.path.dirname(__file__)
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('style.css') as f:
+with open(path+'\\style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html = True)
 
 def prepare_image(image):
