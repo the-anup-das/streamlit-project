@@ -59,8 +59,11 @@ with st.spinner('Wait for it...'):
         model.eval().to(device)
         pre = predict(image, model)
         # st.write()
-        st.success(f"Popularity Score: {pre}")
+        st.success(f"Popularity Score: {pre:.2f}")
     else:
         st.error("You need to upload an image")
 
     # st.success('Done!')
+
+
+st.markdown('## Made with Love :heart: Anup ', unsafe_allow_html = False)
