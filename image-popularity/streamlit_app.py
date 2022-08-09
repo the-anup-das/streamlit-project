@@ -10,7 +10,7 @@ from PIL import Image
 
 st.set_page_config(
      page_title="Check your image popularity score",
-     page_icon="favicon(1).ico",
+     page_icon="assets/favicon(1).ico",
      layout="wide",
      initial_sidebar_state="expanded",
 
