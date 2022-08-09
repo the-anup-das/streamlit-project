@@ -15,7 +15,7 @@ head()
 if 'prob_click' not in ss:
     ss['prob_click'] = False
 
-if ss.button('Bring it on!'):
+if st.button('Bring it on!'):
     ss['prob_click'] = True
     ss['report_click'] = False
     df = read_data('data/olympiad-problems.csv')
