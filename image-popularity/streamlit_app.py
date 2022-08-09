@@ -20,7 +20,7 @@ path = os.path.dirname(__file__)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open(path+'\\style.css') as f:
+with open(path+'//style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html = True)
 
 def prepare_image(image):
