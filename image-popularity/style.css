@@ -1,0 +1,57 @@
+/* Move block container higher */
+div.block-container.css-18e3th9.egzxvld2 {
+    margin-top: -5em;
+  }
+  
+
+  /* changing font color */
+
+  div.css-50ug3q.e16fv1kl3 {
+    color: rgb(45, 37, 37);
+  }
+  
+  /* Centering text in each gray box */
+  div.css-1ht1j8u.e16fv1kl0 {
+    text-align: center;
+  }
+  
+  /* Third line of Row */
+  div.css-wnm74r.e16fv1kl3 {
+    margin-left: 30%;
+    margin-right: 20%;
+  }
+  
+  /* Row 1 */
+  div.css-1r6slb0.e1tzin5v2 {
+      background-color: #EEEEEE;
+      padding: 3% 3% 3% 3%;
+      border-radius: 5px;
+  }
+  
+  /* Row 2 */
+  div.css-12w0qpk.e1tzin5v2 {
+      background-color: #DCDCDC;
+      padding: 3% 3% 3% 3%;
+      border-radius: 5px;
+  }
+  
+  
+  /* Hide hamburger menu and footer */
+  div.css-14xtw13.e8zbici0 {
+    display: none;
+  }
+  
+  footer.css-2ykyy6.egzxvld0 {
+    display: none;
+  }
+  
+  footer.css-1lsmgbg.egzxvld0 {
+    display: none;
+  }
+  
+  div.vg-tooltip-element {
+    display: none;
+  }
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
