@@ -40,20 +40,20 @@ def set_bg(png_file):
 def head():
     st.markdown("""
         <h1 style='text-align: center; margin-bottom: -35px;'>
-        Math Problem Generator
+        Data Science Interview Practice
         </h1>
     """, unsafe_allow_html=True
     )
     st.caption("""
         <p style='text-align: center'>
-        by <a href='https://medium.com/geoclid'>Geoclid</a>
+        by <a href='https://github.com/the-anup-das'>Anup</a>
         </p>
     """, unsafe_allow_html=True
     )
     st.write(
         "Feeling overwhelmed by your daily grind?",
         "Looking for something fun to do?",
-        "Click the button for a random math problem \U0001F642."
+        "Click the button for a random Data Science Question \U0001F642."
     )
 
 def body(sample):
@@ -66,11 +66,11 @@ def body(sample):
     st.markdown('---')
 
 def footer(sample):
-    st.caption("Support us by either reporting this problem for bad $\LaTeX$ formatting or buying a coffee!")
+    st.caption("Support us by either reporting any problem or buying a coffee!")
     col1, col2 = st.columns([1,8])
     col1.button('Report', on_click=report, args=(sample, ))
     col2.markdown("""
-        <a href="https://www.buymeacoffee.com/geoclid" target="_blank">
+        <a href="https://www.buymeacoffee.com/theanup" target="_blank">
         <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
             width="136"
             height="36"

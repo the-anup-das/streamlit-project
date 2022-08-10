@@ -12,7 +12,7 @@ icon = path+'/assets/icon.png'
 
 st.set_page_config(page_title='Data Science Interview practice', page_icon=icon)
 
-st.write(path)
+# st.write(path)
 
 # st.set_page_config(page_title='Data Science Interview practice', page_icon='assets/icon.png')
 
