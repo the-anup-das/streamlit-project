@@ -8,12 +8,13 @@ from utils import set_bg, head, body, footer, read_data
 import os
 
 path = os.path.dirname(__file__)
-print(path)
+st.write(path)
+
 st.set_page_config(page_title='Data Science Interview practice', page_icon='assets/icon.png')
 # st.set_page_config(page_title='Data Science Interview practice', page_icon='assets/icon.png')
 
 ss = st.session_state
-set_bg('/assets/background.png')
+set_bg(path+'/assets/background.png')
 head()
 
 if 'prob_click' not in ss:
@@ -22,7 +23,7 @@ if 'prob_click' not in ss:
 if st.button('Bring it on!'):
     ss['prob_click'] = True
     ss['report_click'] = False
-    df = read_data('data/olympiad-problems.csv')
+    df = read_data(path+'data/olympiad-problems.csv')
     choice = df.sample(1)
     ss['sample'] = choice
     body(choice)
