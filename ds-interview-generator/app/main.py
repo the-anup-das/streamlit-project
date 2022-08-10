@@ -7,10 +7,11 @@ import streamlit as st
 from utils import set_bg, head, body, footer, read_data
 import os
 
+st.set_page_config(page_title='Data Science Interview practice', page_icon='assets/icon.png')
+
 path = os.path.dirname(__file__)
 st.write(path)
 
-st.set_page_config(page_title='Data Science Interview practice', page_icon='assets/icon.png')
 # st.set_page_config(page_title='Data Science Interview practice', page_icon='assets/icon.png')
 
 ss = st.session_state
