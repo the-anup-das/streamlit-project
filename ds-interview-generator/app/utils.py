@@ -58,11 +58,11 @@ def head():
 
 def body(sample):
     name = sample.iloc[0, 0]
-    link = sample.iloc[0, 1]
-    prob = sample.iloc[0, 2]
+    # link = sample.iloc[0, 1]
+    # prob = sample.iloc[0, 2]
     st.info(f'### {name}')
-    st.write(prob)
-    st.caption(f'[source]({link})')
+    # st.write(prob)
+    # st.caption(f'[source]({link})')
     st.markdown('---')
 
 def footer(sample):

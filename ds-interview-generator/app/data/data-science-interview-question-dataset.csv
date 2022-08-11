@@ -1,0 +1,433 @@
+What Are the Different Types of Machine Learning?
+What is Overfitting and How Can You Avoid It?
+What is training Set and test Set in a Machine Learning Model? How Much Data Will You Allocate for Your Training Validation  and Test Sets?
+How Do You Handle Missing or Corrupted Data in a Dataset?
+How Can You Choose a Classifier Based on a Training Set Data Size?
+Explain the Confusion Matrix with Respect to Machine Learning Algorithms.
+What Is a False Positive and False Negative and How Are They Significant?
+What Are the Three Stages of Building a Model in Machine Learning?
+What is Deep Learning?
+What Are the Differences Between Machine Learning and Deep Learning?
+What Are the Applications of Supervised Machine Learning in Modern Businesses?
+What is Semi-supervised Machine Learning?
+What Are Unsupervised Machine Learning Techniques?
+What is the Difference Between Supervised and Unsupervised Machine Learning?
+What is the Difference Between Inductive Machine Learning and Deductive Machine Learning?
+Compare K-means and KNN Algorithms.
+When Will You Use Classification over Regression?
+What is randonm forest and how can you differentiate with other classification algorithm
+What is Clustering?
+What are Recommender Systems?
+What are Parametric and Non-Parametric Models?
+What is Reinforcement Learning?
+What is Time series?
+How Do You Design an Email Spam Filter?
+Considering a Long List of Machine Learning Algorith given a Datset  How Do You Decide Which One to Use?
+What is Bias and Variance in a Machine Learning Model?
+What is the Trade-off Between Bias and Variance?
+What is Collaborative Filtering?
+What is Content-Based Filtering?
+How can you select K for K-means Clustering?
+How do check the Normality of a dataset?
+Can logistic regression use for more than 2 classes?
+Explain Correlation and Covariance?
+What is P-value?
+Difference Between Sigmoid and Softmax functions?
+What is PCA and how do to use it?
+What are Loss Function and Cost Functions? Explain the key Difference Between them?
+How do you make sure which Machine Learning Algorithm to use?
+How to Handle Outlier Values?
+How do check the Normality of a dataset?
+What is P-value?
+Difference Between Sigmoid and Softmax functions?
+How to Tackle Overfitting and Underfitting?
+What is Entropy in Machine Learning?
+What is Epoch in Machine Learning?
+What is the Variance Inflation Factor?
+What is a Confusion Matrix?
+Explain the difference between KNN and K-means Clustering
+What is the difference between stochastic gradient descent (SGD) and gradient descent (GD)?
+What is the difference between regularization and normalisation?
+What are Type I and Type II Errors?
+When should Classification be used over Regression?
+Why is rotation required in PCA? What will happen if the components are not rotated?
+What is ROC Curve and what does it represent?
+Why are Validation and Test Datasets Needed?
+What is Dimensionality Reduction?
+Both being Tree-based Algorithm how is Random Forest different from Gradient Boosting Machine (GBM)?s
+What is meant by Parametric and Non-parametric Models?
+In Machine Learning for how many classes can Logistic Regression be used?
+What are the Various Tests for Checking the Normality of a Dataset?
+What are the Two Main Types of Filtering in Machine Learning? Explain.
+Outlier Values can be Discovered from which Tools?
+What is Rescaling of Data and how is it done?
+What is Binarizing of Data? How to Binarize?
+How to Standardize Data?
+We know that one-hot encoding increases the dimensionality of a dataset but label encoding doesnt. How?
+Explain False Negative False Positive True Negative and True Positive with a simple example.
+What is F1-score and How Is It Used?
+When does regularization come into play in Machine Learning?
+How can we relate standard deviation and variance?
+If your dataset is suffering from high variance how would you handle it?
+Explain the handling of missing or corrupted values in the given dataset.
+What is a Box-Cox transformation?
+What is the exploding gradient problem while using back propagation technique?
+Whats a Fourier transform?
+What do you mean by Associative Rule Mining (ARM)?
+What is Marginalisation? Explain the process.
+What is the Principle Component Analysis?
+Why is rotation of components so important in Principle Component Analysis (PCA)?
+Which machine learning algorithm is known as the lazy learner and why is it called so?
+ What is Machine learning?
+ Mention the difference between Data Mining and Machine learning?
+ What is ?Overfitting? in Machine learning?
+ Why does overfitting happen?
+ How can you avoid overfitting ?
+ What is inductive machine learning?
+ What are the five popular algorithms of Machine Learning?
+ What are the different Algorithm techniques in Machine Learning?
+Unsupervised Learning
+ What are the three stages to build the hypotheses or model in machine learning?
+ What is the standard approach to supervised learning?
+ What is Training set and Test set??
+ List down various approaches for machine learning?
+Symbolic Vs Statistical Learning
+ What is not Machine Learning?
+ Explain what is the function of ?Unsupervised Learning??
+Find low-dimensional representations of the data
+ Explain what is the function of ?Supervised Learning??
+ What is algorithm independent machine learning?
+ What is the difference between artificial learning and machine learning?
+ What is a classifier in machine learning?
+ What are the advantages of Naive Bayes?
+ In what areas Pattern Recognition is used?
+ What is Genetic Programming?
+ What is Inductive Logic Programming in Machine Learning?
+ What is Model Selection in Machine Learning?
+ What are the two methods used for the calibration in Supervised Learning?
+ Which method is frequently used to prevent overfitting?
+ What is the difference between heuristic for rule learning and heuristics for decision trees?
+ What is Perceptron in Machine Learning?
+ Explain the two components of the Bayesian logic program?
+ What are Bayesian Networks (BN ?
+ Why instance-based learning algorithm sometimes referred to as a Lazy learning algorithm?
+ What are the two classification methods that SVM ( Support Vector Machine can handle?
+ What is ensemble learning?
+ Why ensemble learning is used?
+ When to use ensemble learning?
+ What are the two paradigms of ensemble methods?
+ What is the general principle of an ensemble method and what is bagging and boosting in the ensemble method?
+ What is a bias-variance decomposition of classification error in the ensemble method?
+ What is an Incremental Learning algorithm in the ensemble?
+What are PCA KPCA  and ICA used for?
+ What is dimension reduction in Machine Learning?
+ What are support vector machines?
+ What are the components of relational evaluation techniques?
+Ground Truth Acquisition
+ What are the different methods for Sequential Supervised Learning?
+ What are the areas in robotics and information processing where sequential prediction problem arises?
+Structured prediction
+ What is batch statistical learning?
+ What is PAC Learning?
+ What are the different categories you can categorize the sequence learning process?
+ What is sequence learning?
+ What are two techniques of Machine Learning ?
+ Give a popular application of machine learning that you see on day to day basis?
+ You are given a train data set having 1000 columns and 1 million rows. The data set is based on a classification problem. Your manager has asked you to reduce the dimension of this data so that model computation time can be reduced. Your machine has memory constraints. What would you do? (You are free to make practical assumptions.)
+Is rotation necessary in PCA? If yes  Why? What will happen if you don?t rotate the components?
+ You are given a data set. The data set has missing values which spread along 1 standard deviation from the median. What percentage of data would remain unaffected? Why?
+ You are given a data set on cancer detection. You?ve build a classification model and achieved an accuracy of 96%. Why shouldn?t you be happy with your model performance? What can you do about it?
+ Why is naive Bayes so naive?
+Explain prior probability  likelihood and marginal likelihood in context of naiveBayes algorithm?
+You are working on a time series data set. You manager has asked you to build a high accuracy model. You start with the decision tree algorithm since you know it works fairly well on all kinds of data. Later  you tried a time series regression model and got higher accuracy than decision tree model. Can this happen? Why?
+You are assigned a new project which involves helping a food delivery company save more money. The problem is  company?s delivery team aren?t able to deliver food on time. As a result  their customers get unhappy. And to keep them happy  they end up delivering food for free. Which machine learning algorithm can save them?
+ You came to know that your model is suffering from low bias and high variance. Which algorithm should you use to tackle it? Why?
+You are given a data set. The data set contains many variables  some of which are highly correlated and you know about it. Your manager has asked you to run PCA. Would you remove correlated variables first? Why?
+After spending several hours  you are now anxious to build a high accuracy model. As a result  you build 5 GBM models  thinking a boosting algorithm would do the magic. Unfortunately  neither of models could perform better than benchmark score. Finally  you  decided to combine those models. Though  ensembled models are known to return high accuracy.  but you are unfortunate. Where did you miss?
+How is kNN different from kmeans clustering?
+How is True Positive Rate and Recall related? Write the equation.
+You have built a multiple regression model. Your model R -squared isn?t as good as you wanted. For improvement  your remove the intercept term  your model R? becomes 0.8 from 0.3. Is it possible? How?
+After analyzing the model  your manager has informed that your regression model is suffering from multicollinearity. How would you check if he?s true? Without losing any information  can you still build a better model?
+When is Ridge regression favorable over Lasso regression?
+Rise in global average temperature led to decrease in number of pirates around the world. Does that mean that decrease in number of pirates caused the climate change?
+While working on a data set  how do you select important variables? Explain your methods.
+What is the difference between covariance and correlation?
+Is it possible capture the correlation between continuous and categorical variable? If yes  how?
+Both being tree based algorithm  how is random forest different from Gradient boosting algorithm (GBM)?
+Running a binary classification tree algorithm is the easy part. Do you know how does a tree splitting takes place i.e. how does the tree decide which variable to split at the root node and succeeding nodes?
+You?ve built a random forest model with 10000 trees. You got delighted after getting training error as 0.00. But  the validation error is 34.23. What is going on? Haven?t you trained your model perfectly?
+You?ve got a data set to work having p (no. of variable) > n (no. of observation). Why is OLS as bad option to work with? Which techniques would be best to use? Why?
+What is convex hull ? (Hint: Think SVM)
+We know that one hot encoding increasing the dimensionality of a data set. But  label encoding doesn?t. How ?
+What cross validation technique would you use on time series data set? Is it k-fold or LOOCV?
+You are given a data set consisting of variables having more than 30% missing values? Let?s say  out of 50 variables  8 variables have missing values higher than 30%. How will you deal with them?
+"People who bought this  also bought?? recommendations seen on amazon is a result of which algorithm?"""""""
+What do you understand by Type I vs Type II error ?
+You are working on a classification problem. For validation purposes  you?ve randomly sampled the training data set into train and validation. You are confident that your model will work incredibly well on unseen data since your validation accuracy is high. However  you get shocked after getting poor test accuracy. What went wrong?
+You have been asked to evaluate a regression model based on Rsquared  adjusted Rsquared and tolerance. What will be your criteria?
+In k-means or kNN  we use euclidean distance to calculate the distance between nearest neighbors. Why not manhattan distance ?
+Explain machine learning to me like a 5 year old.
+I know that a linear regression model is generally evaluated using Adjusted R? or F value. How would you evaluate a logistic regression model?
+Considering the long list of machine learning algorithm  given a data set  how do you decide which one to use?
+Do you suggest that treating a categorical variable as continuous variable would result in a better predictive model?
+When does regularization becomes necessary in Machine Learning?
+What do you understand by Bias Variance trade off?
+OLS is to linear regression. Maximum likelihood is to logistic regression. Explain the statement.
+ What is R2? What are some other metrics that could be better than R2 and why?
+ What is the curse of dimensionality?
+ Is more data always better?
+ What are advantages of plotting your data before per- forming analysis?
+ How can you make sure that you don?t analyze something that ends up meaningless?
+ What is the role of trial and error in data analysis? What is the the role of making a hypothesis before diving in?
+ How can you determine which features are the most im- portant in your model?
+ How do you deal with some of your predictors being missing?
+ You have several variables that are positively correlated with your response; and you think combining all of the variables could give you a good prediction of your response. However; you see that in the multiple linear regression; one of the weights on the predictors is negative. What could be the issue?
+ Now you have a feasible amount of predictors; but you?re fairly sure that you don?t need all of them. How would you perform feature selection on the dataset?
+ Your linear regression didn?t run and communicates that there are an infinite number of best estimates for the regression coefficients. What could be wrong?
+ You run your regression on different subsets of your data; and find that in each subset; the beta value for a certain variable varies wildly. What could be the issue here?
+ What is the main idea behind ensemble learning? If I had many different models that predicted the same response variable; what might I want to do to incorporate all of the models? Would you expect this to perform better than an individual model or worse?
+ Given that you have wi data in your o ce; how would you determine which rooms and areas are underutilized and overutilized?
+ How could you use GPS data from a car to determine the quality of a driver?
+Given accelerometer; altitude; and fuel usage data from a car; how would you determine the optimum acceleration pattern to drive over hills?
+Given position data of NBA players in a season?s games; how would you evaluate a basketball player?s defensive ability?
+ How would you quantify the influence of a Twitter user?
+Given location data of golf balls in games; how would construct a model that can advise golfers where to aim?
+ You have 100 mathletes and 100 math problems. Each mathlete gets to choose 10 problems to solve. Given data on who got what problem correct; how would you rank the problems in terms of di culty?
+ You have 5000 people that rank 10 sushis in terms of saltiness. How would you aggregate this data to estimate the true saltiness rank in each sushi?
+ Given data on congressional bills and which congressional representatives co-sponsored the bills; how would you determine which other representatives are most similar to yours in voting behavior? How would you evaluate who is the most liberal? Most republican? Most bipartisan?
+ How would you come up with an algorithm to detect plagiarism in online content?
+ You have data on all purchases of customers at a grocery store. Describe to me how you would program an algorithm that would cluster the customers into groups. How would you determine the appropriate number of clusters to include?
+ Analyze this dataset and give me a model that can predict this response variable.
+ What could be some issues if the distribution of the test data is significantly different than the distribution of the training data?
+ What are some ways I can make my model more robust to outliers?
+What are some differences you would expect in a model that minimizes squared error; versus a model that minimizes absolute error? In which cases would each error metric be appropriate?
+ What error metric would you use to evaluate how good a binary classifier is? What if the classes are imbalanced? What if there are more than 2 groups?
+What are various ways to predict a binary response variable? Can you compare two of them and tell me when one would be more appropriate? What?s the difference between these? (SVM; Logistic Regression; Naive Bayes; Decision Tree; etc.)
+ What is regularization and where might it be helpful? What is an example of using regularization in a model?
+ Why might it be preferable to include fewer predictors over many?
+Given training data on tweets and their retweets; how would you predict the number of retweets of a given tweet after 7 days after only observing 2 days worth of data?
+ How could you collect and analyze data to use social media to predict the weather?
+ How would you construct a feed to show relevant content for a site that involves user interactions with items?
+ How would you design the people you may know feature on LinkedIn or Facebook?
+ How would you predict who someone may want to send a Snapchat or Gmail to?
+ How would you suggest to a franchise where to open a new store?
+ In a search engine; given partial data on what the user has typed; how would you predict the user?s eventual search query?
+ Given a database of all previous alumni donations to your university; how would you predict which recent alumni are most likely to donate?
+ How would you build a model to predict a March Madness bracket?
+ You want to run a regression to predict the probability of a flight delay; but there are flights with delays of up to 12 hours that are really messing up your model. How can you address this?
+ Your hash function assigns each object to a number between 1:10; each with equal probability. With 10 objects; what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.
+ You call 2 UberX?s and 3 Lyfts. If the time that each takes to reach you is IID; what is the probability that all the Lyfts arrive first? What is the probability that all the UberX?s arrive first?
+ I write a program should print out all the numbers from 1 to 300; but prints out Fizz instead if the number is divisible by 3; Buzz instead if the number is divisible by 5; and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed; Buzzed; or FizzBuzzed?
+ On a dating site; users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives; what is the probability that they form a match?
+ A lazy high school senior types up application and envelopes to n different colleges; but puts the applications randomly into the envelopes. What is the expected number of applications that went to the right college?
+ Let?s say you have a very tall father. On average; what would you expect the height of his son to be? Taller; equal; or shorter? What if you had a very short father?
+ What?s the expected number of coin flips until you get two heads in a row? What?s the expected number of coin flips until you get two tails in a row?
+ Lets say we play a game where I keep flipping a coin until I get heads. If the first time I get heads is on the nth coin; then I pay you 2n-1 dollars. How much would you pay me to play this game?
+ You have two coins; one of which is fair and comes up heads with a probability 1/2; and the other which is biased and comes up heads with probability 3/4. You randomly pick coin and flip it twice; and get heads both times. What is the probability that you picked the fair coin?
+ You have a 0.1% chance of picking up a coin with both heads; and a 99.9% chance that you pick up a fair coin. You flip your coin and it comes up heads 10 times. What?s the chance that you picked up the fair coin; given the information that you observed?
+ What is a P-Value ?
+Bobo the amoeba has a 25%; 25%; and 50% chance of producing 0; 1; or 2 offspring; respectively. Each of Bobo?s descendants also have the same probabilities. What is the probability that Bobo?s lineage dies out?
+In any 15-minute interval; there is a 20% probability that you will see at least one shooting star. What is the proba- bility that you see at least one shooting star in the period of an hour?
+ How can you generate a random number between 1 - 7 with only a die?
+ How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?
+ You have an 50-50 mixture of two normal distributions with the same standard deviation. How far apart do the means need to be in order for this distribution to be bimodal?
+Given draws from a normal distribution with known parameters; how can you simulate draws from a uniform distribution?
+A certain couple tells you that they have two children; at least one of which is a girl. What is the probability that they have two girls?
+You have a group of couples that decide to have children until they have their first girl; after which they stop having children. What is the expected gender ratio of the children that are born? What is the expected number of children each couple will have?
+ How many ways can you split 12 people into 3 teams of 4?
+Write a function to calculate all possible assignment vectors of 2n users; where n users are assigned to group 0 (control); and n users are assigned to group 1 (treatment).
+Given a list of tweets; determine the top 10 most used hashtags.
+ Program an algorithm to find the best approximate solution to the knapsack problem1 in a given time.
+ Program an algorithm to find the best approximate solution to the travelling salesman problem2 in a given time.
+You have a stream of data coming in of size n; but you don?t know what n is ahead of time. Write an algorithm that will take a random sample of k elements. Can you write one that takes O(k) space?
+ Write an algorithm that can calculate the square root of a number.
+Given a list of numbers; can you return the outliers?
+ When can parallelism make your algorithms run faster?  
+ What are the different types of joins? What are the differences between them?
+ Why might a join on a subquery be slow? How might you speed it up?
+ Describe the difference between primary keys and foreign keys in a SQL database.
+ Given a COURSES table with columns course_id and course_name; a FACULTY table with columns faculty_id and faculty_name; and a COURSE_FACULTY table with columns faculty_id and course_id; how would you return a list of faculty who teach a course given the name of a course?
+ Given a IMPRESSIONS table with ad_id; click (an indicator that the ad was clicked); and date; write a SQL query that will tell me the click-through-rate of each ad by month.
+ Write a query that returns the name of each department and a count of the number of employees in each:  
+ You are AirBnB and you want to test the hypothesis that a greater number of photographs increases the chances that a buyer selects the listing. How would you test this hypothesis?
+ How would you design an experiment to determine the impact of latency on user engagement?
+ What is maximum likelihood estimation? Could there be any case where it doesn?t exist?
+ What?s the difference between a MAP; MOM; MLE estima\- tor? In which cases would you want to use each?
+ What is a confidence interval and how do you interpret it?
+ What is unbiasedness as a property of an estimator? Is this always a desirable property when performing inference? What about in data analysis or predictive modeling?
+ What is Selection Bias?
+In an A/B test; how can you check if assignment to the various buckets was truly random?
+What might be the benefits of running an A/A test; where you have two buckets who are exposed to the exact same product?
+ What would be the hazards of letting users sneak a peek at the other bucket in an A/B test?
+ What would be some issues if blogs decide to cover one of your experimental groups?
+ How would you conduct an A/B test on an opt-in feature?
+How would you run an A/B test for many variants; say 20 or more?
+ How would you run an A/B test if the observations are extremely right-skewed?
+ I have two different experiments that both change the sign-up button to my website. I want to test them at the same time. What kinds of things should I keep in mind?
+ What is a p-value? What is the difference between type-1 and type-2 error?
+What is supervised machine learning?
+What is regression? Which models can you use to solve a regression problem?
+What is linear regression? When do we use it?
+What are the main assumptions of linear regression? ?
+Linear relationship
+What?s the normal distribution? Why do we care about it?
+*Central Limit Theorem; which states that if we draw a large enough number of samples; their mean will follow a normal distribution regardless of the initial distribution of the sample; i.e the distribution of the mean of the samples is normal
+How do we check if a variable follows the normal distribution?
+What if we want to build a model for predicting prices? Are prices distributed normally? Do we need to do any pre-processing for prices?
+What methods for solving linear regression do you know?
+What is gradient descent? How does it work?
+What is the normal equation?
+What is SGD ??? stochastic gradient descent? What?s the difference with the usual gradient descent?
+Which metrics for evaluating regression models do you know?
+What are MSE and RMSE?
+What is the bias-variance trade-off?
+What is overfitting?
+How to validate your models?
+*Why do we need to split our data into three parts: train; validation; and test?
+Can you explain how cross-validation works?
+What is K-fold cross-validation?
+How do we choose K in K-fold cross-validation? What?s your favorite K?
+What is classification? Which models would you use to solve a classification problem?
+What is logistic regression? When do we need to use it?
+Is logistic regression a linear model? Why?
+What is sigmoid? What does it do?
+How do we evaluate classification models?
+What is accuracy?
+Is accuracy always a good metric?
+What is the confusion table? What are the cells in this table?
+*What are precision; recall; and F1-score?
+What is the ROC curve? When to use it?
+What is AUC (AU ROC)? When to use it?
+How to interpret the AU ROC score?
+What is the PR (precision-recall) curve?
+What is the area under the PR curve? Is it a useful metric?I
+In which cases AU PR is better than AU ROC?
+What do we do with categorical variables?
+Why do we need one-hot encoding?
+*What happens to our linear regression model if we have three columns in our data: x; y; z ??? and z is a sum of x and y?
+What happens to our linear regression model if the column z in the data is a sum of columns x and y and some random noise?
+What is regularization? Why do we need it?
+Which regularization techniques do you know?
+What kind of regularization techniques are applicable to linear models?
+How does L2 regularization look like in a linear model?
+How do we select the right regularization parameters?
+What?s the effect of L2 regularization on the weights of a linear model?
+How L1 regularization looks like in a linear model?
+What?s the difference between L2 and L1 regularization?
+Can we have both L1 and L2 regularization components in a linear model?
+What?s the interpretation of the bias term in linear models?
+How do we interpret weights in linear models?
+If a weight for one variable is higher than for another ??? can we say that this variable is more important?
+When do we need to perform feature normalization for linear models? When it?s okay not to do it?
+What is feature selection? Why do we need it?
+Is feature selection important for linear models?
+Which feature selection techniques do you know?
+Can we use L1 regularization for feature selection?
+Can we use L2 regularization for feature selection?
+What are the decision trees?
+How do we train decision trees?
+What are the main parameters of the decision tree model?
+How do we handle categorical variables in decision trees?
+What are the benefits of a single decision tree compared to more complex models?
+How can we know which features are more important for the decision tree model?
+What is random forest?
+Why do we need randomization in random forest?
+What are the main parameters of the random forest model?
+How do we select the depth of the trees in random forest?
+How do we know how many trees we need in random forest?
+Is it easy to parallelize training of a random forest model? How can we do it?
+What are the potential problems with many large trees?
+What if instead of finding the best split; we randomly select a few splits and just select the best from them. Will it work?
+What happens when we have correlated features in our data?
+What is gradient boosting trees?
+What?s the difference between random forest and gradient boosting?
+Is it possible to parallelize training of a gradient boosting model? How to do it?
+Feature importance in gradient boosting trees ??? what are possible options?
+Are there any differences between continuous and discrete variables when it comes to feature importance of gradient boosting models?
+What are the main parameters in the gradient boosting model?
+How do you approach tuning parameters in XGBoost or LightGBM?
+How do you select the number of trees in the gradient boosting model?
+Which hyper-parameter tuning strategies (in general) do you know?
+What?s the difference between grid search parameter tuning strategy and random search? When to use one or another?
+What kind of problems neural nets can solve?
+How does a usual fully-connected feed-forward neural network work?
+Why do we need activation functions?
+What are the problems with sigmoid as an activation function?
+What is ReLU? How is it better than sigmoid or tanh?
+How we can initialize the weights of a neural network?
+What if we set all the weights of a neural network to 0?
+What regularization techniques for neural nets do you know?
+What is dropout? Why is it useful? How does it work?
+What is backpropagation? How does it work? Why do we need it?
+Which optimization techniques for training neural nets do you know?
+How do we use SGD (stochastic gradient descent) for training a neural net?
+What?s the learning rate?
+What happens when the learning rate is too large? Too small?
+How to set the learning rate?
+What is Adam? What?s the main difference between Adam and SGD?
+When would you use Adam and when SGD?
+Do we want to have a constant learning rate or we better change it throughout training?
+How do we decide when to stop training a neural net?
+What is model checkpointing?
+Can you tell us how you approach the model training process?
+How we can use neural nets for computer vision?
+What?s a convolutional layer?
+Why do we actually need convolutions? Can?t we use fully-connected layers for that?
+What?s pooling in CNN? Why do we need it?
+How does max pooling work? Are there other pooling techniques?
+Are CNNs resistant to rotations? What happens to the predictions of a CNN if an image is rotated?
+What are augmentations? Why do we need them?
+What kind of augmentations do you know?
+How to choose which augmentations to use?
+What kind of CNN architectures for classification do you know?
+What is transfer learning? How does it work?
+What is object detection? Do you know any architectures for that?
+What is object segmentation? Do you know any architectures for that?
+How can we use machine learning for text classification?
+What is bag of words? How we can use it for text classification?
+What are the advantages and disadvantages of bag of words?
+What are N-grams? How can we use them?
+How large should be N for our bag of words when using N-grams?
+What is TF-IDF? How is it useful for text classification?
+Which model would you use for text classification with bag of words features?
+Would you prefer gradient boosting trees model or logistic regression when doing text classification with bag of words?
+What are word embeddings? Why are they useful? Do you know Word2Vec?
+Do you know any other ways to get word embeddings?
+*If you have a sentence with multiple words; you may need to combine multiple word embeddings into one. How would you do it?
+Would you prefer gradient boosting trees model or logistic regression when doing text classification with embeddings?
+How can you use neural nets for text classification?
+How can we use CNN for text classification?
+What is unsupervised learning?
+What is clustering? When do we need it?
+Do you know how K-means works?
+How to select K for K-means?
+What are the other clustering algorithms do you know?
+Do you know how DBScan works?
+When would you choose K-means and when DBScan?
+What is the curse of dimensionality? Why do we care about it?
+Do you know any dimensionality reduction techniques?
+What's singular value decomposition? How is it typically used for machine learning?
+What is the ranking problem? Which models can you use to solve them?
+What are good unsupervised baselines for text information retrieval?
+How would you evaluate your ranking algorithms? Which offline metrics would you use?
+What is precision and recall at k?
+What is mean average precision at k?
+How can we use machine learning for search?
+How can we get training data for our ranking algorithms?
+Can we formulate the search problem as a classification problem? How?
+How can we use clicks data as the training data for ranking algorithms?
+Do you know how to use gradient boosting trees for ranking?
+How do you do an online evaluation of a new ranking algorithm?
+What is a recommender system?
+What are good baselines when building a recommender system?
+What is collaborative filtering?
+*How we can incorporate implicit feedback (clicks; etc) into our recommender systems?
+What is the cold start problem?
+Possible approaches to solving the cold start problem???
+What is a time series?
+How is time series different from the usual regression problem?
+Which models do you know for solving time series problems?
+If there's a trend in our series; how we can remove it And why would we want to do it?
+You have a series with only one variable y measured at time t. How do predict y at time t+1? Which approaches would you use?
+You have a series with a variable y and a set of features. How do you predict y at t+1? Which approaches would you use?
+What are the problems with using trees for solving time series problems?
