@@ -5,11 +5,10 @@ problem-generator
 │
 ├── app
 │   ├── main.py
-│   └── utils.py
+│   ├── utils.py
+│   ├── assets
+│   └── data
 │
-├── assets
-│
-├── data
 │
 └── requirements.txt
 
